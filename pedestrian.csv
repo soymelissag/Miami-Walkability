@@ -1,0 +1,9 @@
+﻿zipcode,num311issues,lat,long,neighborhood,walkscore,description,pedcrosswalk,brokenraisedsidewalk,sidewalkhole
+33137,2,25.8207207,-80.1841155,"Wynwood/ Edgewater",46,"Car-Dependent",2,0,0
+33132,8,25.7700057,-80.1701645,"Wynwood/ Edgewater",14,"Car-Dependent",0,8,0
+33127,11,25.8105183,-80.2064323,"Wynwood/ Edgewater",79,"Very Walkable",1,9,1
+33135,2,25.7686762,-80.2371083,"Little Havana",87,"Very Walkable",1,1,0
+33125,8,25.7862401,-80.2371083,"Little Havana",71,"Very Walkable",0,8,0
+33131,5,25.7652848,-80.1869054,"Downtown",91,"Walker's Paradise",4,1,0
+33130,5,25.7667897,-80.2092215,"Downtown",90,"Walker's Paradise",3,2,0
+33128,5,25.7767597,-80.2050376,"Downtown",83,"Very Walkable",0,5,0

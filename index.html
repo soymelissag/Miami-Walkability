@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Miami Walkability</title>
+
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+  <script src="js/d3.min.js"></script>
+  <script src="js/lodash.js"></script>
+  <script src="js/barcharts.js"></script>
+  <script src="js/scatter.js"></script>
+  <script src="js/callbarcharts.js"></script>
+  <link href="css/style.css" rel="stylesheet" />
+
+
+
+</head>
+
+
+
+<body>
+  <div class="title">
+  </div>
+
+  <div class="hero">
+    <img src="cover.png" width="100%">
+  </div>
+
+  <div class="container">
+
+    <main>
+
+
+      <div class="intro">
+        <p>BY:<strong> CAROLINA DIAZ & MELISSA GUTIERREZ</strong></p>
+        <p>According to Walkscore.com, Miami, Florida is the 4th most walkable large city in the US with 399,457 residents [1]. Miami's most walkable neighborhoods include: Downtown, Wynwood-Edgewater, and Little Havana. However, walkability scores do not measure the safety or quality of walkable cities. In this project, we breakdown these three Miami
+          neighborhoods by zipcode and explore their walkability scores and the number of pedestrian-related 311 calls reported in 2018. In doing so, we provide an important clarification about the difference between walkability based on physical features and resident perceptions.</p>
+      </div>
+
+      <div class="score">
+        <h2><span>Walkscores per Zipcode</span></h2>
+
+        <div id="scorechart"></div>
+
+      </div>
+
+      <div class="scoreText">
+        <p>Walkscores measure the walkability of an area through a patented system using measures of pedestrian friendliness, walking routes, and nearby amenities [2]. Walkability is based on a 100-point scale and is broken down into five categories: Car-Dependent (0-24)
+          , Mostly Car-Dependent (25-49), Somewhat Walkable (50-69), Very Walkable (70-89), and Walker's Paradise (90-100). While Car Dependant cities require almost all errands to be completed via car, daily errands in a Walker's Paradise do not require a car. The highest
+          walkability score of 91 is found in Downtown Miami (zipcode 33131). In contrast, the zipcode of 33132 (Edgewater/Wynwood) ranks lowest, with a walkability score of a 14. Overall, 6 of 8 zipcodes are Very Walkable or a Walker's Paradise. </p>
+      </div>
+
+
+
+      <div class="call">
+        <h2><span>Number of Pedestrian 311 calls per Zipcode</span></h2>
+        <div id="callchart"></div>
+
+      </div>
+
+
+      <div class="callText">
+        <p>The barchart above displays the number of pedestrian-related 311 calls per zipcode. Detailed information about each zip code can be found by hovering the cursor over each bar. Pedestrians in two of three Wynwood/Edgewater zipcodes (33127, 33132) have the most number of complaints - most of which relate to broken sidewalks. In Little Havana, one zipcode had a low number of calls (33133) while another had a high number of calls (33125). Falling between the two extremes, all three Downtown zipcodes list five 311 calls each. However, the detailed information shows significant diversity of issues, including crosswalks in 33131 and sidewalks in 33128.
+</p>
+      </div>
+
+      <div class="scatterTitle">
+        <h2><span>Relationship between Walkscores and Number of 311 calls</span></h2>
+         <div class="scatterText">
+          <p>The scatter plot below displays the relationship between Walkscore and the number of 311 calls. Despite the fact that many zip codes have a higher number of Walkability scores, it appears there is no direct relationship between Walkscores and the number of pedestrian-related 311 calls. This could be due to our specific sample of zip codes, and perhaps if the amount of zip codes analyzed were larger, a distinct pattern or correlation could be proven. Furthermore, 311 calls may relate to the level of civic engagement of a particular area. However, our results are useful in illustrating the large diversity of physical features in highly walkable cities. </p>
+        </div>
+        <div id="scatterchart"></div>
+      </div>
+
+      <div class="conclusionTitle">
+      <h2><span>Conclusion</span></h2>
+      <div class="conclusionText">
+  <p> In conclusion, Downtown Miami can be considered a walker's paradise that can set the standard for other neighborhoods in Miami. On the other hand, the neighborhood of Wynwood/Edgewater scored lowest in walkability and had the highest about of 311 calls about broken sidewalks. While there is no conclusive data result about the relationship between walkability scores and 311 calls, future studies should consider a larger sample of zip codes, cities, and data collection methods. </p>
+
+
+<p>Sources: [1] https://www.walkscore.com/cities-and-neighborhoods/ [2] https://www.walkscore.com/methodology.shtml </p>
+    </main>
+  </div>
+</body>
+
+</html>
